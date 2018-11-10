@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripting", "Scripting", "{ED89AFF1-C421-4BF6-9516-F8B3858E264D}"
 	ProjectSection(SolutionItems) = preProject
 		Scripting\generate_headline.sql = Scripting\generate_headline.sql
+		memory_consuption_db_and_objects.sql = memory_consuption_db_and_objects.sql
 	EndProjectSection
 EndProject
 Global
