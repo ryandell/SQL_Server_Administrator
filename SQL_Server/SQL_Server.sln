@@ -7,8 +7,12 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SQL_Server", "SQL_Server\SQ
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripting", "Scripting", "{ED89AFF1-C421-4BF6-9516-F8B3858E264D}"
 	ProjectSection(SolutionItems) = preProject
+		backup_history.sql = backup_history.sql
+		Scripting\db_blocks.sql = Scripting\db_blocks.sql
 		Scripting\generate_headline.sql = Scripting\generate_headline.sql
 		memory_consuption_db_and_objects.sql = memory_consuption_db_and_objects.sql
+		Scripting\server_filestats.sql = Scripting\server_filestats.sql
+		wait_types_stats.sql = wait_types_stats.sql
 	EndProjectSection
 EndProject
 Global
