@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SQL_Server", "SQL_Server\SQL_Server.sqlproj", "{A95E82B8-A3F5-4FA7-8281-8164C12BDD8D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripting", "Scripting", "{ED89AFF1-C421-4BF6-9516-F8B3858E264D}"
+	ProjectSection(SolutionItems) = preProject
+		Scripting\generate_headline.sql = Scripting\generate_headline.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
