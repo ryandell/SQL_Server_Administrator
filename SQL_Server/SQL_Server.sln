@@ -23,6 +23,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripting", "Scripting", "{
 		Scripting\wait_types_stats.sql = Scripting\wait_types_stats.sql
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{B4C98C66-76CB-40A5-9953-6E580E9B12F8}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\temp_table_with_ids.sql = Scripts\temp_table_with_ids.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
