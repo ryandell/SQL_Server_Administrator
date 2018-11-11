@@ -12,6 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripting", "Scripting", "{
 		Scripting\generate_headline.sql = Scripting\generate_headline.sql
 		memory_consuption_db_and_objects.sql = memory_consuption_db_and_objects.sql
 		Scripting\server_filestats.sql = Scripting\server_filestats.sql
+		session_stats.sql = session_stats.sql
+		sp_who3.sql = sp_who3.sql
+		tempDB_stats_after_session.sql = tempDB_stats_after_session.sql
 		wait_types_stats.sql = wait_types_stats.sql
 	EndProjectSection
 EndProject
