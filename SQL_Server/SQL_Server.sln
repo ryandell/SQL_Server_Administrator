@@ -7,15 +7,20 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SQL_Server", "SQL_Server\SQ
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripting", "Scripting", "{ED89AFF1-C421-4BF6-9516-F8B3858E264D}"
 	ProjectSection(SolutionItems) = preProject
-		backup_history.sql = backup_history.sql
+		Scripting\backup_history.sql = Scripting\backup_history.sql
 		Scripting\db_blocks.sql = Scripting\db_blocks.sql
+		Scripting\disk_free_space.sql = Scripting\disk_free_space.sql
 		Scripting\generate_headline.sql = Scripting\generate_headline.sql
-		memory_consuption_db_and_objects.sql = memory_consuption_db_and_objects.sql
+		Scripting\memory_consuption_db_and_objects.sql = Scripting\memory_consuption_db_and_objects.sql
+		Scripting\partitions_with_borders.sql = Scripting\partitions_with_borders.sql
 		Scripting\server_filestats.sql = Scripting\server_filestats.sql
-		session_stats.sql = session_stats.sql
-		sp_who3.sql = sp_who3.sql
-		tempDB_stats_after_session.sql = tempDB_stats_after_session.sql
-		wait_types_stats.sql = wait_types_stats.sql
+		Scripting\session_stats.sql = Scripting\session_stats.sql
+		Scripting\sp_who3.sql = Scripting\sp_who3.sql
+		Scripting\SSIS_packages_times.sql = Scripting\SSIS_packages_times.sql
+		Scripting\statistics_to_update.sql = Scripting\statistics_to_update.sql
+		Scripting\tempDB_stats_after_session.sql = Scripting\tempDB_stats_after_session.sql
+		Scripting\update_view_table_stats_with_nested.sql = Scripting\update_view_table_stats_with_nested.sql
+		Scripting\wait_types_stats.sql = Scripting\wait_types_stats.sql
 	EndProjectSection
 EndProject
 Global
